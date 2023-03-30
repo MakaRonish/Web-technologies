@@ -1,0 +1,35 @@
+*{
+    background-color: lightslategrey;
+    font-family: 'Dancing Script', cursive;;
+    
+}
+h1{
+    background-color: gray;
+    font-size: 60px;
+    color: fuchsia;
+}
+p{
+    background-color: greenyellow;
+    font-size: 30px;
+    color: rgb(255, 119, 0);
+    font-style: italic;
+}
+img{
+    width: 400px;
+    height: 300px;
+}
+.lol{
+    color: hotpink;
+    font-style: italic;
+}
+#xd{
+    color: blue;
+    background-color: blueviolet;
+}
+img[alt]{
+    color: darkseagreen;
+}
+#xd:hover{
+    background-color: brown;
+    font-weight: bolder;
+}
