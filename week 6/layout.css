@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+h1{
+    text-align: center;
+    color:tan;
+    font-size: 60px;
+    font-family: 'Delicious Handrawn', cursive;
+}
+.parent{
+    width:100%;
+}
+.son{
+    width:50%;
+    float:left;
+}
+img{
+    width:500px;
+    height:auto;
+}
+.daughter{
+    width:50%;
+    float:right;
+}
+p{
+    font-size: 30px;
+    line-height: 50px;
+    font-family: 'Delicious Handrawn', cursive;
+    font-style: oblique;
+}
+/*mobiles devices*/
+@media (min-width:320px) and (max-width:480px){
+   h1{
+    background-color: blanchedalmond;
+    color: black;
+   }
+   .daughter{
+    width:100%;
+   } 
+   .son{
+    width:100%;
+   }
+   .daughter img{
+    width: 100%;
+    height: auto;
+   }
+}
+/*tablet devices*/
+@media (min-width:481px) and (max-width:768px){
+    h1{
+        background-color: rgb(205, 126, 8);
+        color: rgb(172, 17, 17);
+       }
+       .daughter{
+        width:100%;
+        text-align: center;
+       } 
+       .son{
+        width:100%;
+       }
+       .daughter img{
+        width: 100%;
+        height: auto;
+       }
+    p{
+        color: blue;
+    }
+    
+}
+/*laptop devices*/
+@media (min-width:769px) and (max-width:1024px){
+    h1{
+        background-color: rgb(228, 141, 190);
+        color: rgb(175, 210, 233);
+       }
+       .daughter{
+        width:100%;
+        text-align: center;
+       } 
+       .son{
+        width:100%;
+       }
+       .daughter img{
+        width: 100%;
+        height: auto;
+       }
+    p{
+        color: rgb(19, 110, 91);
+    }
+    
+}
+/*Desktop devices*/
+@media (min-width:1025px) and (max-width:1201px){
+    h1{
+        background-color: rgb(228, 141, 190);
+        color: rgb(175, 210, 233);
+       }
+       .daughter{
+        width:100%;
+        text-align: center;
+       } 
+       .son{
+        width:100%;
+       }
+       .daughter img{
+        width: 100%;
+        height: auto;
+       }
+    p{
+        color: rgb(19, 110, 91);
+    }
+    
+}
